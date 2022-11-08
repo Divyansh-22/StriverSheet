@@ -18,3 +18,8 @@ string is_palindrome(int x)
             }
             return "Yes";
 		}
+
+int main(){
+    int x = 2345432;
+    cout<<is_palindrome(x);
+}

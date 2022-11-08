@@ -32,3 +32,10 @@ vector<long long> lcmAndGcd(long long A , long long B) {
 
         return lg;
     }
+
+int main(){
+    long long x = 2134, y = 3452;
+    vector<long long> lcmGcd(2);
+    lcmGcd = lcmAndGcd(x,y);
+    cout<<"LCM is  "<<lcmGcd[0]<<"  and GCD is "<<lcmGcd[1];
+}
